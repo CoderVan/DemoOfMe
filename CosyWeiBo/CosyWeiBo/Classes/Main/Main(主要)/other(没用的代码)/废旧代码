@@ -1,0 +1,41 @@
+gasdfggsdf
+ /**
+ *创建子控制器
+ */
+UIViewController *vc1 = [[UIViewController alloc] init];
+vc1.tabBarItem.title = @"首页";
+/**
+ *  设置文字样式
+ */
+NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
+textAttrs[NSForegroundColorAttributeName] = IKEColor(123, 123, 123);
+[vc1.tabBarItem setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
+
+NSMutableDictionary *selectTextAttrs = [NSMutableDictionary dictionary];
+selectTextAttrs[NSForegroundColorAttributeName] = [UIColor orangeColor];
+[vc1.tabBarItem setTitleTextAttributes:selectTextAttrs forState:UIControlStateSelected];
+
+vc1.tabBarItem.image = [UIImage imageNamed:@"tabbar_home"];
+/**
+ *  自动取消渲染的图片
+ */
+vc1.tabBarItem.selectedImage = [[UIImage imageNamed:@"tabbar_home_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+vc1.view.backgroundColor = IKERandomColor;
+
+UIViewController *vc2 = [[UIViewController alloc] init];
+vc2.tabBarItem.title = @"消息";
+vc2.tabBarItem.image = [UIImage imageNamed:@"tabbar_message_center_selected"];
+vc2.tabBarItem.selectedImage = [[UIImage imageNamed:@"tabbar_message_center_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+vc2.view.backgroundColor = IKERandomColor;
+
+UIViewController *vc3 = [[UIViewController alloc] init];
+vc3.tabBarItem.title = @"发现";
+vc3.tabBarItem.image = [UIImage imageNamed:@"tabbar_discover"];
+vc3.tabBarItem.selectedImage = [[UIImage imageNamed:@"tabbar_discover_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+vc3.view.backgroundColor = IKERandomColor;
+
+UIViewController *vc4 = [[UIViewController alloc] init];
+vc4.tabBarItem.title = @"我";
+vc4.tabBarItem.image = [UIImage imageNamed:@"tabbar_profile"];
+vc4.tabBarItem.selectedImage = [[UIImage imageNamed:@"tabbar_profile_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+vc4.view.backgroundColor = IKERandomColor;

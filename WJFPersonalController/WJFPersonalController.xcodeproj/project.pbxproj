@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		955D00861C88662000D7385F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 955D00851C88662000D7385F /* main.m */; };
+		955D00891C88662100D7385F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 955D00881C88662100D7385F /* AppDelegate.m */; };
+		955D008C1C88662100D7385F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 955D008B1C88662100D7385F /* ViewController.m */; };
+		955D008F1C88662100D7385F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955D008D1C88662100D7385F /* Main.storyboard */; };
+		955D00911C88662100D7385F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955D00901C88662100D7385F /* Assets.xcassets */; };
+		955D00941C88662100D7385F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955D00921C88662100D7385F /* LaunchScreen.storyboard */; };
+		955D009F1C88662100D7385F /* WJFPersonalControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 955D009E1C88662100D7385F /* WJFPersonalControllerTests.m */; };
+		955D00AA1C88662100D7385F /* WJFPersonalControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 955D00A91C88662100D7385F /* WJFPersonalControllerUITests.m */; };
+		955D00B91C886AAC00D7385F /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 955D00B81C886AAC00D7385F /* UIImage+Image.m */; };
+		95AFA2681C89C89100353BF4 /* OneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AFA2661C89C89100353BF4 /* OneCell.m */; };
+		95AFA2691C89C89100353BF4 /* OneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95AFA2671C89C89100353BF4 /* OneCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		955D009B1C88662100D7385F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 955D00791C88662000D7385F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 955D00801C88662000D7385F;
+			remoteInfo = WJFPersonalController;
+		};
+		955D00A61C88662100D7385F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 955D00791C88662000D7385F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 955D00801C88662000D7385F;
+			remoteInfo = WJFPersonalController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		955D00811C88662000D7385F /* WJFPersonalController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJFPersonalController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		955D00851C88662000D7385F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		955D00871C88662000D7385F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		955D00881C88662100D7385F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		955D008A1C88662100D7385F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		955D008B1C88662100D7385F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		955D008E1C88662100D7385F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		955D00901C88662100D7385F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		955D00931C88662100D7385F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		955D00951C88662100D7385F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955D009A1C88662100D7385F /* WJFPersonalControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJFPersonalControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		955D009E1C88662100D7385F /* WJFPersonalControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJFPersonalControllerTests.m; sourceTree = "<group>"; };
+		955D00A01C88662100D7385F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955D00A51C88662100D7385F /* WJFPersonalControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJFPersonalControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		955D00A91C88662100D7385F /* WJFPersonalControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJFPersonalControllerUITests.m; sourceTree = "<group>"; };
+		955D00AB1C88662100D7385F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955D00B71C886AAC00D7385F /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		955D00B81C886AAC00D7385F /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		95AFA2651C89C89100353BF4 /* OneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneCell.h; sourceTree = "<group>"; };
+		95AFA2661C89C89100353BF4 /* OneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneCell.m; sourceTree = "<group>"; };
+		95AFA2671C89C89100353BF4 /* OneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		955D007E1C88662000D7385F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955D00971C88662100D7385F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955D00A21C88662100D7385F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		955D00781C88662000D7385F = {
+			isa = PBXGroup;
+			children = (
+				955D00831C88662000D7385F /* WJFPersonalController */,
+				955D009D1C88662100D7385F /* WJFPersonalControllerTests */,
+				955D00A81C88662100D7385F /* WJFPersonalControllerUITests */,
+				955D00821C88662000D7385F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		955D00821C88662000D7385F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				955D00811C88662000D7385F /* WJFPersonalController.app */,
+				955D009A1C88662100D7385F /* WJFPersonalControllerTests.xctest */,
+				955D00A51C88662100D7385F /* WJFPersonalControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		955D00831C88662000D7385F /* WJFPersonalController */ = {
+			isa = PBXGroup;
+			children = (
+				955D00B71C886AAC00D7385F /* UIImage+Image.h */,
+				955D00B81C886AAC00D7385F /* UIImage+Image.m */,
+				955D00871C88662000D7385F /* AppDelegate.h */,
+				955D00881C88662100D7385F /* AppDelegate.m */,
+				955D008A1C88662100D7385F /* ViewController.h */,
+				955D008B1C88662100D7385F /* ViewController.m */,
+				95AFA2651C89C89100353BF4 /* OneCell.h */,
+				95AFA2661C89C89100353BF4 /* OneCell.m */,
+				95AFA2671C89C89100353BF4 /* OneCell.xib */,
+				955D008D1C88662100D7385F /* Main.storyboard */,
+				955D00901C88662100D7385F /* Assets.xcassets */,
+				955D00921C88662100D7385F /* LaunchScreen.storyboard */,
+				955D00951C88662100D7385F /* Info.plist */,
+				955D00841C88662000D7385F /* Supporting Files */,
+			);
+			path = WJFPersonalController;
+			sourceTree = "<group>";
+		};
+		955D00841C88662000D7385F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				955D00851C88662000D7385F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		955D009D1C88662100D7385F /* WJFPersonalControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				955D009E1C88662100D7385F /* WJFPersonalControllerTests.m */,
+				955D00A01C88662100D7385F /* Info.plist */,
+			);
+			path = WJFPersonalControllerTests;
+			sourceTree = "<group>";
+		};
+		955D00A81C88662100D7385F /* WJFPersonalControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				955D00A91C88662100D7385F /* WJFPersonalControllerUITests.m */,
+				955D00AB1C88662100D7385F /* Info.plist */,
+			);
+			path = WJFPersonalControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		955D00801C88662000D7385F /* WJFPersonalController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955D00AE1C88662100D7385F /* Build configuration list for PBXNativeTarget "WJFPersonalController" */;
+			buildPhases = (
+				955D007D1C88662000D7385F /* Sources */,
+				955D007E1C88662000D7385F /* Frameworks */,
+				955D007F1C88662000D7385F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJFPersonalController;
+			productName = WJFPersonalController;
+			productReference = 955D00811C88662000D7385F /* WJFPersonalController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		955D00991C88662100D7385F /* WJFPersonalControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955D00B11C88662100D7385F /* Build configuration list for PBXNativeTarget "WJFPersonalControllerTests" */;
+			buildPhases = (
+				955D00961C88662100D7385F /* Sources */,
+				955D00971C88662100D7385F /* Frameworks */,
+				955D00981C88662100D7385F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				955D009C1C88662100D7385F /* PBXTargetDependency */,
+			);
+			name = WJFPersonalControllerTests;
+			productName = WJFPersonalControllerTests;
+			productReference = 955D009A1C88662100D7385F /* WJFPersonalControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		955D00A41C88662100D7385F /* WJFPersonalControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955D00B41C88662100D7385F /* Build configuration list for PBXNativeTarget "WJFPersonalControllerUITests" */;
+			buildPhases = (
+				955D00A11C88662100D7385F /* Sources */,
+				955D00A21C88662100D7385F /* Frameworks */,
+				955D00A31C88662100D7385F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				955D00A71C88662100D7385F /* PBXTargetDependency */,
+			);
+			name = WJFPersonalControllerUITests;
+			productName = WJFPersonalControllerUITests;
+			productReference = 955D00A51C88662100D7385F /* WJFPersonalControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		955D00791C88662000D7385F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.Cosy;
+				TargetAttributes = {
+					955D00801C88662000D7385F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					955D00991C88662100D7385F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = RTQ32TY936;
+						TestTargetID = 955D00801C88662000D7385F;
+					};
+					955D00A41C88662100D7385F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = RTQ32TY936;
+						TestTargetID = 955D00801C88662000D7385F;
+					};
+				};
+			};
+			buildConfigurationList = 955D007C1C88662000D7385F /* Build configuration list for PBXProject "WJFPersonalController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 955D00781C88662000D7385F;
+			productRefGroup = 955D00821C88662000D7385F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				955D00801C88662000D7385F /* WJFPersonalController */,
+				955D00991C88662100D7385F /* WJFPersonalControllerTests */,
+				955D00A41C88662100D7385F /* WJFPersonalControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		955D007F1C88662000D7385F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955D00941C88662100D7385F /* LaunchScreen.storyboard in Resources */,
+				955D00911C88662100D7385F /* Assets.xcassets in Resources */,
+				95AFA2691C89C89100353BF4 /* OneCell.xib in Resources */,
+				955D008F1C88662100D7385F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955D00981C88662100D7385F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955D00A31C88662100D7385F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		955D007D1C88662000D7385F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955D008C1C88662100D7385F /* ViewController.m in Sources */,
+				95AFA2681C89C89100353BF4 /* OneCell.m in Sources */,
+				955D00B91C886AAC00D7385F /* UIImage+Image.m in Sources */,
+				955D00891C88662100D7385F /* AppDelegate.m in Sources */,
+				955D00861C88662000D7385F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955D00961C88662100D7385F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955D009F1C88662100D7385F /* WJFPersonalControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955D00A11C88662100D7385F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955D00AA1C88662100D7385F /* WJFPersonalControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		955D009C1C88662100D7385F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 955D00801C88662000D7385F /* WJFPersonalController */;
+			targetProxy = 955D009B1C88662100D7385F /* PBXContainerItemProxy */;
+		};
+		955D00A71C88662100D7385F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 955D00801C88662000D7385F /* WJFPersonalController */;
+			targetProxy = 955D00A61C88662100D7385F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		955D008D1C88662100D7385F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				955D008E1C88662100D7385F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		955D00921C88662100D7385F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				955D00931C88662100D7385F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		955D00AC1C88662100D7385F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		955D00AD1C88662100D7385F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		955D00AF1C88662100D7385F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WJFPersonalController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cosy.WJFPersonalController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		955D00B01C88662100D7385F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WJFPersonalController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cosy.WJFPersonalController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		955D00B21C88662100D7385F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WJFPersonalControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cosy.WJFPersonalControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJFPersonalController.app/WJFPersonalController";
+			};
+			name = Debug;
+		};
+		955D00B31C88662100D7385F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WJFPersonalControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cosy.WJFPersonalControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJFPersonalController.app/WJFPersonalController";
+			};
+			name = Release;
+		};
+		955D00B51C88662100D7385F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WJFPersonalControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cosy.WJFPersonalControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WJFPersonalController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		955D00B61C88662100D7385F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WJFPersonalControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cosy.WJFPersonalControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WJFPersonalController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		955D007C1C88662000D7385F /* Build configuration list for PBXProject "WJFPersonalController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955D00AC1C88662100D7385F /* Debug */,
+				955D00AD1C88662100D7385F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955D00AE1C88662100D7385F /* Build configuration list for PBXNativeTarget "WJFPersonalController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955D00AF1C88662100D7385F /* Debug */,
+				955D00B01C88662100D7385F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955D00B11C88662100D7385F /* Build configuration list for PBXNativeTarget "WJFPersonalControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955D00B21C88662100D7385F /* Debug */,
+				955D00B31C88662100D7385F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955D00B41C88662100D7385F /* Build configuration list for PBXNativeTarget "WJFPersonalControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955D00B51C88662100D7385F /* Debug */,
+				955D00B61C88662100D7385F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 955D00791C88662000D7385F /* Project object */;
+}
